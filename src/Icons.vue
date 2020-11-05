@@ -1,0 +1,21 @@
+<template>
+    <section>
+        <div class="block">
+            <b-icon
+                icon="account"
+                size="is-large"
+                type="is-success">
+            </b-icon>
+            <b-icon
+                icon="home"
+                size="is-large"
+                type="is-info">
+            </b-icon>
+            <b-icon
+                icon="view-dashboard"
+                size="is-large"
+                type="is-primary">
+            </b-icon>
+        </div>
+    </section>
+</template>

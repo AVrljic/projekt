@@ -1,28 +1,43 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar />
+    <img class="columns is-vcentered" src="./assets/mountain.jpg">
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>ŠTO KAŽU NAŠI IZLETNICI..</strong>
+          <br/>
+          <br/>
+          Odlično iskustvo s raspoloženom i nasmijanom ekipom!
+          <br/>
+          <strong>Ana Čuljak, Zagreb</strong>          
+          <br/>
+          Prošao sam nekoliko izleta i avantura s Mountain match i uvijek nam je bilo lijepo i jedva čekam sljedeći put!
+          <br/>
+          <strong>Marko Radoš, Sisak</strong>
+        </p>
+      </div>
+    </footer>    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar
   }
 }
 </script>
 
+
+
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+*{margin:0;padding:0;}
+img{width:70%;margin:0 auto;}
+
+
 </style>
